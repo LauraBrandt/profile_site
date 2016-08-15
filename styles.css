@@ -1,0 +1,214 @@
+body {
+  font-family:'Trebuchet MS', sans-serif; 
+  background-color: #bce;
+}
+
+a:link:not(.btn) {color: DarkBlue; text-decoration: none}
+a:visited:not(.btn) {color: indigo; text-decoration: none}
+a:hover:not(.btn) {color: DarkRed; text-decoration: underline}
+
+
+/* Navbar */
+.navbar {
+  background:#333;
+  border-bottom:2px solid #111;
+  font-size: 1.1em;
+}
+
+.navbar-brand {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 1.3em;
+}
+
+.navbar-header {
+  background:#111;
+  padding: 0 4%;
+  border:1px solid black;
+}
+
+.navbar-right { 
+  margin-top: 1px;
+  margin-right:1%;
+}
+
+/* All sections */
+.page {
+  position: relative;
+  background-attachment: fixed;
+  background-size:100%;
+  background-size: 100vw 100vh;
+  padding: 5em 6em;
+  padding: 13vh 14vw;
+}
+
+.page h1 {
+  color: rgb(0,27,89);
+  padding-bottom: 0.7em;
+  padding-left: 0.8em;
+  margin-top:0%;
+  font-family: 'Lobster Two', sans-serif;
+  text-shadow: 0px 0px 9px #004;
+  text-shadow:
+   -1px -1px 4px #ced,  
+    1px -1px 4px #def,
+   -1px  1px 4px #def,
+    1px  1px 4px #def;
+  font-size:300%;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Home */
+#home {
+  background-image: url("https://7e6ae4ba1d0115db6a3281ff40a1c1ab50b6846a.googledrive.com/host/0B4ngvLUcDZn1MWFpQ1plYURPR28/Abstract%20Blue%20Waves%20Background%20Vector%20Art.jpg"); 
+  /* www.backgroundvector.com */
+  background-position: 0 5%;
+  padding: 10em 7em 11em 7em;
+  padding: 22vh 13vw 23vh 13vw;
+  font-family: "Poiret One", sans-serif;
+  text-align: center;
+  color: #FFF;
+  min-height: 100vh; 
+}
+
+#home h2 {
+  position: relative;
+  font-size: 8em; 
+  /*font-size: 20vh;*/
+  text-shadow: -1px -1px 1px #fff, 
+               2px 4px 3px #555,              
+               0px 8px 13px rgba(0,0,0,0.4);  
+  margin-bottom: 0.3em;
+  margin-top: 5%;
+  margin-top: 5vh;
+}
+
+#home h3 {
+  position: relative;
+  font-size: 3.5em;
+  text-shadow: -1px -1px 1px #fff, 
+               2px 4px 3px #555,              
+               0px 8px 13px rgba(0,0,0,0.4); 
+}
+
+hr {
+  height: 5px;
+  box-shadow: 0 3px 3px -3px #999 inset;
+}
+
+#home .overlay {
+  background-color: rgba(0,0,0,0.1);
+}
+
+/* Portfolio */
+#portfolio {
+  background-image: url("https://7e6ae4ba1d0115db6a3281ff40a1c1ab50b6846a.googledrive.com/host/0B4ngvLUcDZn1MWFpQ1plYURPR28/grungy-teal-tileable-patterns-1.jpg");
+  /* backgrounds.mysitemyway.com */
+  background-size: 250%;
+}
+
+#portfolio .overlay {
+  background-color: rgba(200,250,255,0.7);
+}
+
+#portfolio p {
+  text-align:center;
+  background:rgb(0,20,66);
+  font-weight:bold;
+  font-size:1.4em;
+  padding:4%;
+  color:#DDD;
+  margin-bottom: 2px;
+  border:1px solid #222;
+  text-shadow:
+   -1px -1px 2px #111,  
+    1px -1px 2px #111,
+   -1px  1px 2px #111,
+    1px  1px 2px #111;
+}
+
+#portfolio a {
+ padding: 3px;
+}
+
+#portfolio a:hover {
+  text-decoration:none;
+  opacity:0.85;
+}
+
+/* About */
+#about {
+  color: black;
+  background-image: url("https://7e6ae4ba1d0115db6a3281ff40a1c1ab50b6846a.googledrive.com/host/0B4ngvLUcDZn1MWFpQ1plYURPR28/abstract-cloudy-sky-textures-4.jpg");
+  /* backgrounds.mysitemyway.com */
+  padding-bottom: 8em;
+  min-height: 100vh; 
+}
+
+#about p {
+  font-size: 150%;
+  font-size: 3.5vh;
+  padding-right: 10%;
+  padding-right: 5vw; 
+  padding-left: 5%;
+  padding-left: 2vw;
+  padding-bottom:1%;
+}
+
+#about img { 
+  display:block; 
+  margin-top: 2em;  
+  margin-top: 3vh;
+}
+
+@media screen and (max-width:992px) {
+  #about img { display:none }
+  #about p { 
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+#about .overlay {
+  background-color: rgba(255,255,255,0.2);
+}
+
+/* Contact */
+#contact {
+  background-image: url("https://7e6ae4ba1d0115db6a3281ff40a1c1ab50b6846a.googledrive.com/host/0B4ngvLUcDZn1MWFpQ1plYURPR28/Free-Blue-Curves-Vector-Background.jpg");  
+  min-height: 550px;
+  min-height: 100vh;
+}
+
+#contact h3, #contact h4 {
+  position:relative;
+  padding-left: 5%;
+  padding-left: 5vh;
+  color: #222;
+}
+
+#contact h3 {
+  font-size:1.7em;
+}
+
+#contact h4 {
+  margin-top:2em;
+  margin-bottom: 20px;
+}
+
+#contact_links {
+  margin-left:10%;
+}
+
+#contact_links a {  
+  font-size: 2.3em;
+  color: rgb(0,27,89);
+  margin-right: 50px;
+  }
