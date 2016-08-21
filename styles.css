@@ -204,7 +204,9 @@ hr {
 }
 
 #contact_links {
-  margin-left:10%;
+  position:relative;
+  padding-left: 6%;
+  padding-left: 6vh;
 }
 
 #contact_links a {  
